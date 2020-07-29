@@ -1,0 +1,49 @@
+#menu{
+    height: 50px;
+}
+#menu ul{
+    text-decoration: none;
+    list-style: none;
+    line-height: 50px;
+}
+.item{
+    height: 150px;
+}
+#content-footer{
+    text-align: center;
+}
+#content-footer footer{
+    height: 50px;  
+}
+#content-footer footer h5{
+    line-height: 50px;
+}
+.lateral{
+    height: 250px;
+}
+.lateral> div{
+    height: calc(250px / 3);
+}
+#slider{
+    
+    height: 450px;
+    overflow: hidden;
+}
+#slider img{
+    height: 450px;
+}
+#footer{
+    line-height: 50px;
+}
+
+@media (max-width:768px){
+    #menu{
+     height: auto; 
+    }
+}
+@media(max-width:1101px){
+#jumbo h1{
+    font-size: 30px;
+    text-align: center;
+}
+}
